@@ -1,0 +1,16 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# 編輯器 / IDE
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# 本機測試用設定檔 (依 README 建議自行建立，內容可能含個人測試環境路徑，
+# 不應提交進共用 repo；正式的範例設定檔 scratchmon.conf 不受影響)
+*.local.conf
+my_test.conf
+test.conf
