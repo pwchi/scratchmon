@@ -420,7 +420,7 @@ HELP_EOF
         echo -e "${BG_RED}${WHITE}${BLINK} !!  WARNING: SCRATCH SPACE ALMOST FULL  !! ${RESET}"
         echo ""
         echo -e "Mount point : ${YELLOW}${SCRATCH_MOUNT}${RESET}"
-        echo -e "Usage       : ${RED}${BOLD}${PCT}%${RESET}  (used ${USED} / total ${TOTAL})"
+        echo -e "Usage       : ${BG_RED}${WHITE}${BOLD}${PCT}%${RESET}  (used ${USED} / total ${TOTAL})"
         echo -e "Action      : I/O performance may degrade once /scratch usage exceeds ${THRESHOLD}%. Please clean up your personal files in /scratch ASAP."
         echo -e "${RED}${SEP}${RESET}"
     fi
